@@ -1,0 +1,524 @@
+Nov 17, 2026 9:35:03 PM Dealership setupLogging
+INFO: Executing setupLogging(): logging initialized successfully with output to 'cardealerApp.log'
+Nov 17, 2026 9:35:04 PM Dealership main
+INFO: Executing Dealership.main(): Starting Car Dealership Management System application
+Nov 17, 2026 9:35:04 PM Dealership <init>
+INFO: Executing Dealership constructor: initialized empty inventory TreeSet
+Nov 17, 2026 9:35:04 PM Dealership loadVehiclesFromFile
+INFO: Executing loadVehiclesFromFile() with filename: vehicles.txt
+Nov 17, 2026 9:35:04 PM Dealership setupLogging
+INFO: Executing setupLogging(): logging initialized successfully with output to 'cardealerApp.log'
+Nov 17, 2026 9:35:04 PM Vehicle <init>
+INFO: Executing Vehicle constructor from combined name: brand='Toyota', model='Corolla', basePrice=5500000, age=4, km=75000, fuelType=HYBRID
+Nov 17, 2026 9:35:04 PM Dealership loadVehiclesFromFile
+INFO: Parsed Vehicle: Toyota Corolla from line 1
+Nov 17, 2026 9:35:04 PM Vehicle <init>
+INFO: Executing Vehicle constructor from combined name: brand='Volkswagen', model='Golf', basePrice=4200000, age=6, km=120000, fuelType=DIESEL
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Volkswagen Golf -> 3,465,000
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Toyota Corolla -> 5,635,000
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): Volkswagen Golf vs Toyota Corolla by price -> -1
+Nov 17, 2026 9:35:04 PM Dealership loadVehiclesFromFile
+INFO: Parsed Vehicle: Volkswagen Golf from line 2
+Nov 17, 2026 9:35:04 PM Vehicle <init>
+INFO: Executing Vehicle constructor from combined name: brand='Ford', model='Focus', basePrice=3100000, age=8, km=145000, fuelType=PETROL
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Ford Focus -> 1,900,000
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Toyota Corolla -> 5,635,000
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): Ford Focus vs Toyota Corolla by price -> -1
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Ford Focus -> 1,900,000
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Volkswagen Golf -> 3,465,000
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): Ford Focus vs Volkswagen Golf by price -> -1
+Nov 17, 2026 9:35:04 PM Dealership loadVehiclesFromFile
+INFO: Parsed Vehicle: Ford Focus from line 3
+Nov 17, 2026 9:35:04 PM Vehicle <init>
+INFO: Executing Vehicle constructor from combined name: brand='BMW', model='320d', basePrice=7800000, age=3, km=60000, fuelType=DIESEL
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for BMW 320d -> 7,717,500
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Volkswagen Golf -> 3,465,000
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): BMW 320d vs Volkswagen Golf by price -> 1
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for BMW 320d -> 7,717,500
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Toyota Corolla -> 5,635,000
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): BMW 320d vs Toyota Corolla by price -> 1
+Nov 17, 2026 9:35:04 PM Dealership loadVehiclesFromFile
+INFO: Parsed Vehicle: BMW 320d from line 4
+Nov 17, 2026 9:35:04 PM Vehicle <init>
+INFO: Executing Vehicle constructor from combined name: brand='Opel', model='Astra', basePrice=2200000, age=11, km=190000, fuelType=PETROL
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Opel Astra -> 550,000
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Volkswagen Golf -> 3,465,000
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): Opel Astra vs Volkswagen Golf by price -> -1
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Opel Astra -> 550,000
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Ford Focus -> 1,900,000
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): Opel Astra vs Ford Focus by price -> -1
+Nov 17, 2026 9:35:04 PM Dealership loadVehiclesFromFile
+INFO: Parsed Vehicle: Opel Astra from line 5
+Nov 17, 2026 9:35:04 PM Dealership setupLogging
+INFO: Executing setupLogging(): logging initialized successfully with output to 'cardealerApp.log'
+Nov 17, 2026 9:35:04 PM Vehicle <init>
+INFO: Executing Vehicle constructor from combined name: brand='Nissan', model='Leaf', basePrice=4800000, age=5, km=65000, fuelType=HYBRID
+Nov 17, 2026 9:35:04 PM ElectricVehicle <init>
+INFO: Executing ElectricVehicle constructor from combined name 'Nissan Leaf': battery=40 kWh, heatPump=false
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Nissan Leaf -> 4,657,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Nissan Leaf -> 4,657,500
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Volkswagen Golf -> 3,465,000
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): Nissan Leaf vs Volkswagen Golf by price -> 1
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Nissan Leaf -> 4,657,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Nissan Leaf -> 4,657,500
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Toyota Corolla -> 5,635,000
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): Nissan Leaf vs Toyota Corolla by price -> -1
+Nov 17, 2026 9:35:04 PM Dealership loadVehiclesFromFile
+INFO: Parsed ElectricVehicle: Nissan Leaf from line 6
+Nov 17, 2026 9:35:04 PM Vehicle <init>
+INFO: Executing Vehicle constructor from combined name: brand='Tesla', model='Model 3', basePrice=11500000, age=2, km=38000, fuelType=HYBRID
+Nov 17, 2026 9:35:04 PM ElectricVehicle <init>
+INFO: Executing ElectricVehicle constructor from combined name 'Tesla Model 3': battery=75 kWh, heatPump=true
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Tesla Model 3 -> 12,880,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Tesla Model 3 -> 14,876,400
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Volkswagen Golf -> 3,465,000
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): Tesla Model 3 vs Volkswagen Golf by price -> 1
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Tesla Model 3 -> 12,880,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Tesla Model 3 -> 14,876,400
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Toyota Corolla -> 5,635,000
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): Tesla Model 3 vs Toyota Corolla by price -> 1
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Tesla Model 3 -> 12,880,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Tesla Model 3 -> 14,876,400
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for BMW 320d -> 7,717,500
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): Tesla Model 3 vs BMW 320d by price -> 1
+Nov 17, 2026 9:35:04 PM Dealership loadVehiclesFromFile
+INFO: Parsed ElectricVehicle: Tesla Model 3 from line 7
+Nov 17, 2026 9:35:04 PM Vehicle <init>
+INFO: Executing Vehicle constructor from combined name: brand='Renault', model='Zoe', basePrice=3900000, age=6, km=82000, fuelType=HYBRID
+Nov 17, 2026 9:35:04 PM ElectricVehicle <init>
+INFO: Executing ElectricVehicle constructor from combined name 'Renault Zoe': battery=52 kWh, heatPump=true
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Renault Zoe -> 3,450,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Renault Zoe -> 3,622,500
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Volkswagen Golf -> 3,465,000
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): Renault Zoe vs Volkswagen Golf by price -> 1
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Renault Zoe -> 3,450,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Renault Zoe -> 3,622,500
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Toyota Corolla -> 5,635,000
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): Renault Zoe vs Toyota Corolla by price -> -1
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Renault Zoe -> 3,450,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Renault Zoe -> 3,622,500
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Nissan Leaf -> 4,657,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Nissan Leaf -> 4,657,500
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): Renault Zoe vs Nissan Leaf by price -> -1
+Nov 17, 2026 9:35:04 PM Dealership loadVehiclesFromFile
+INFO: Parsed ElectricVehicle: Renault Zoe from line 8
+Nov 17, 2026 9:35:04 PM Vehicle <init>
+INFO: Executing Vehicle constructor from combined name: brand='Kia', model='EV6', basePrice=13200000, age=1, km=15000, fuelType=HYBRID
+Nov 17, 2026 9:35:04 PM ElectricVehicle <init>
+INFO: Executing ElectricVehicle constructor from combined name 'Kia EV6': battery=77 kWh, heatPump=true
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Kia EV6 -> 15,007,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Kia EV6 -> 17,333,663
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Volkswagen Golf -> 3,465,000
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): Kia EV6 vs Volkswagen Golf by price -> 1
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Kia EV6 -> 15,007,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Kia EV6 -> 17,333,663
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Toyota Corolla -> 5,635,000
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): Kia EV6 vs Toyota Corolla by price -> 1
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Kia EV6 -> 15,007,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Kia EV6 -> 17,333,663
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for BMW 320d -> 7,717,500
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): Kia EV6 vs BMW 320d by price -> 1
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Kia EV6 -> 15,007,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Kia EV6 -> 17,333,663
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Tesla Model 3 -> 12,880,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Tesla Model 3 -> 14,876,400
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): Kia EV6 vs Tesla Model 3 by price -> 1
+Nov 17, 2026 9:35:04 PM Dealership loadVehiclesFromFile
+INFO: Parsed ElectricVehicle: Kia EV6 from line 9
+Nov 17, 2026 9:35:04 PM Vehicle <init>
+INFO: Executing Vehicle constructor from combined name: brand='VW', model='ID.3', basePrice=7100000, age=4, km=54000, fuelType=HYBRID
+Nov 17, 2026 9:35:04 PM ElectricVehicle <init>
+INFO: Executing ElectricVehicle constructor from combined name 'VW ID.3': battery=58 kWh, heatPump=false
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for VW ID.3 -> 7,475,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for VW ID.3 -> 7,475,000
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Volkswagen Golf -> 3,465,000
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): VW ID.3 vs Volkswagen Golf by price -> 1
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for VW ID.3 -> 7,475,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for VW ID.3 -> 7,475,000
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Toyota Corolla -> 5,635,000
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): VW ID.3 vs Toyota Corolla by price -> 1
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for VW ID.3 -> 7,475,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for VW ID.3 -> 7,475,000
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Tesla Model 3 -> 12,880,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Tesla Model 3 -> 14,876,400
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): VW ID.3 vs Tesla Model 3 by price -> -1
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for VW ID.3 -> 7,475,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for VW ID.3 -> 7,475,000
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for BMW 320d -> 7,717,500
+Nov 17, 2026 9:35:04 PM Vehicle compareTo
+INFO: Executing compareTo(): VW ID.3 vs BMW 320d by price -> -1
+Nov 17, 2026 9:35:04 PM Dealership loadVehiclesFromFile
+INFO: Parsed ElectricVehicle: VW ID.3 from line 10
+Nov 17, 2026 9:35:04 PM Dealership loadVehiclesFromFile
+INFO: Successfully finished loading file 'vehicles.txt'. Inventory now has 10 vehicles.
+Nov 17, 2026 9:35:04 PM Dealership getVehicles
+INFO: Executing getVehicles(): returning inventory containing 10 vehicles
+Nov 17, 2026 9:35:04 PM Vehicle getKm
+INFO: Executing getKm() -> 190000.0 for Opel Astra
+Nov 17, 2026 9:35:04 PM Vehicle getKm
+INFO: Executing getKm() -> 145000.0 for Ford Focus
+Nov 17, 2026 9:35:04 PM Vehicle getKm
+INFO: Executing getKm() -> 120000.0 for Volkswagen Golf
+Nov 17, 2026 9:35:04 PM Vehicle getKm
+INFO: Executing getKm() -> 82000.0 for Renault Zoe
+Nov 17, 2026 9:35:04 PM Vehicle getKm
+INFO: Executing getKm() -> 65000.0 for Nissan Leaf
+Nov 17, 2026 9:35:04 PM Vehicle getKm
+INFO: Executing getKm() -> 75000.0 for Toyota Corolla
+Nov 17, 2026 9:35:04 PM Vehicle getKm
+INFO: Executing getKm() -> 54000.0 for VW ID.3
+Nov 17, 2026 9:35:04 PM Vehicle getKm
+INFO: Executing getKm() -> 60000.0 for BMW 320d
+Nov 17, 2026 9:35:04 PM Vehicle getKm
+INFO: Executing getKm() -> 38000.0 for Tesla Model 3
+Nov 17, 2026 9:35:04 PM Vehicle getKm
+INFO: Executing getKm() -> 15000.0 for Kia EV6
+Nov 17, 2026 9:35:04 PM Dealership getVehicles
+INFO: Executing getVehicles(): returning inventory containing 10 vehicles
+Nov 17, 2026 9:35:04 PM Dealership getVehicles
+INFO: Executing getVehicles(): returning inventory containing 10 vehicles
+Nov 17, 2026 9:35:04 PM Dealership main
+INFO: Calculated Fleet Average Mileage: 84,400.00 km
+Nov 17, 2026 9:35:04 PM Dealership getVehicles
+INFO: Executing getVehicles(): returning inventory containing 10 vehicles
+Nov 17, 2026 9:35:04 PM Dealership getVehicles
+INFO: Executing getVehicles(): returning inventory containing 10 vehicles
+Nov 17, 2026 9:35:04 PM Vehicle toString
+INFO: Executing toString() for Opel Astra
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Opel Astra -> 550,000
+Nov 17, 2026 9:35:04 PM Vehicle averageKmPerYear
+INFO: Executing averageKmPerYear() for Opel Astra -> 17272.73 km/yr
+Nov 17, 2026 9:35:04 PM Vehicle getBrand
+INFO: Executing getBrand() -> Opel
+Nov 17, 2026 9:35:04 PM Vehicle getModel
+INFO: Executing getModel() -> Astra
+Nov 17, 2026 9:35:04 PM Dealership main
+INFO: Identified Cheapest Vehicle: Opel Astra
+Nov 17, 2026 9:35:04 PM Dealership getVehicles
+INFO: Executing getVehicles(): returning inventory containing 10 vehicles
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Nissan Leaf -> 4,657,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Nissan Leaf -> 4,657,500
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Renault Zoe -> 3,450,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Renault Zoe -> 3,622,500
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for VW ID.3 -> 7,475,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for VW ID.3 -> 7,475,000
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Nissan Leaf -> 4,657,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Nissan Leaf -> 4,657,500
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Tesla Model 3 -> 12,880,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Tesla Model 3 -> 14,876,400
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for VW ID.3 -> 7,475,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for VW ID.3 -> 7,475,000
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Kia EV6 -> 15,007,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Kia EV6 -> 17,333,663
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Tesla Model 3 -> 12,880,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Tesla Model 3 -> 14,876,400
+Nov 17, 2026 9:35:04 PM Vehicle getModel
+INFO: Executing getModel() -> EV6
+Nov 17, 2026 9:35:04 PM Vehicle getModel
+INFO: Executing getModel() -> EV6
+Nov 17, 2026 9:35:04 PM Vehicle getBrand
+INFO: Executing getBrand() -> Kia
+Nov 17, 2026 9:35:04 PM Vehicle getModel
+INFO: Executing getModel() -> EV6
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Kia EV6 -> 15,007,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Kia EV6 -> 17,333,663
+Nov 17, 2026 9:35:04 PM ElectricVehicle getBatteryCapacity
+INFO: Executing getBatteryCapacity() -> 77 kWh for Kia EV6
+Nov 17, 2026 9:35:04 PM Vehicle averageKmPerYear
+INFO: Executing averageKmPerYear() for Kia EV6 -> 15000.00 km/yr
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Kia EV6 -> 15,007,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Kia EV6 -> 17,333,663
+Nov 17, 2026 9:35:04 PM Dealership main
+INFO: Identified Top Electric Vehicle: Kia EV6 with final price 17,333,663
+Nov 17, 2026 9:35:04 PM Dealership getVehicles
+INFO: Executing getVehicles(): returning inventory containing 10 vehicles
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Opel Astra -> 550,000
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Ford Focus -> 1,900,000
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Volkswagen Golf -> 3,465,000
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Renault Zoe -> 3,450,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Renault Zoe -> 3,622,500
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Nissan Leaf -> 4,657,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Nissan Leaf -> 4,657,500
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Toyota Corolla -> 5,635,000
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for VW ID.3 -> 7,475,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for VW ID.3 -> 7,475,000
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for BMW 320d -> 7,717,500
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Tesla Model 3 -> 12,880,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Tesla Model 3 -> 14,876,400
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Kia EV6 -> 15,007,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Kia EV6 -> 17,333,663
+Nov 17, 2026 9:35:04 PM Dealership main
+INFO: Calculated Total Fleet Inventory Value: 67,232,563
+Nov 17, 2026 9:35:04 PM Dealership getVehicles
+INFO: Executing getVehicles(): returning inventory containing 10 vehicles
+Nov 17, 2026 9:35:04 PM Dealership getVehicles
+INFO: Executing getVehicles(): returning inventory containing 10 vehicles
+Nov 17, 2026 9:35:04 PM Dealership getVehicles
+INFO: Executing getVehicles(): returning inventory containing 10 vehicles
+Nov 17, 2026 9:35:04 PM Vehicle getFuelType
+INFO: Executing getFuelType() -> PETROL for Opel Astra
+Nov 17, 2026 9:35:04 PM Vehicle getFuelType
+INFO: Executing getFuelType() -> PETROL for Ford Focus
+Nov 17, 2026 9:35:04 PM Vehicle getFuelType
+INFO: Executing getFuelType() -> DIESEL for Volkswagen Golf
+Nov 17, 2026 9:35:04 PM Vehicle getFuelType
+INFO: Executing getFuelType() -> HYBRID for Renault Zoe
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Renault Zoe -> 3,450,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Renault Zoe -> 3,622,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle toString
+INFO: Executing toString() on ElectricVehicle Renault Zoe
+Nov 17, 2026 9:35:04 PM Vehicle toString
+INFO: Executing toString() for Renault Zoe
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Renault Zoe -> 3,450,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Renault Zoe -> 3,622,500
+Nov 17, 2026 9:35:04 PM Vehicle averageKmPerYear
+INFO: Executing averageKmPerYear() for Renault Zoe -> 13666.67 km/yr
+Nov 17, 2026 9:35:04 PM Vehicle getFuelType
+INFO: Executing getFuelType() -> HYBRID for Nissan Leaf
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Nissan Leaf -> 4,657,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Nissan Leaf -> 4,657,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle toString
+INFO: Executing toString() on ElectricVehicle Nissan Leaf
+Nov 17, 2026 9:35:04 PM Vehicle toString
+INFO: Executing toString() for Nissan Leaf
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Nissan Leaf -> 4,657,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Nissan Leaf -> 4,657,500
+Nov 17, 2026 9:35:04 PM Vehicle averageKmPerYear
+INFO: Executing averageKmPerYear() for Nissan Leaf -> 13000.00 km/yr
+Nov 17, 2026 9:35:04 PM Vehicle getFuelType
+INFO: Executing getFuelType() -> HYBRID for Toyota Corolla
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Toyota Corolla -> 5,635,000
+Nov 17, 2026 9:35:04 PM Vehicle toString
+INFO: Executing toString() for Toyota Corolla
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Toyota Corolla -> 5,635,000
+Nov 17, 2026 9:35:04 PM Vehicle averageKmPerYear
+INFO: Executing averageKmPerYear() for Toyota Corolla -> 18750.00 km/yr
+Nov 17, 2026 9:35:04 PM Vehicle getFuelType
+INFO: Executing getFuelType() -> HYBRID for VW ID.3
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for VW ID.3 -> 7,475,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for VW ID.3 -> 7,475,000
+Nov 17, 2026 9:35:04 PM Vehicle getFuelType
+INFO: Executing getFuelType() -> DIESEL for BMW 320d
+Nov 17, 2026 9:35:04 PM Vehicle getFuelType
+INFO: Executing getFuelType() -> HYBRID for Tesla Model 3
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Tesla Model 3 -> 12,880,000
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Tesla Model 3 -> 14,876,400
+Nov 17, 2026 9:35:04 PM Vehicle getFuelType
+INFO: Executing getFuelType() -> HYBRID for Kia EV6
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Kia EV6 -> 15,007,500
+Nov 17, 2026 9:35:04 PM ElectricVehicle getFinalPrice
+INFO: Executing ElectricVehicle.getFinalPrice() for Kia EV6 -> 17,333,663
+Nov 17, 2026 9:35:04 PM Dealership main
+INFO: Filtered Hybrid Inventory processed with average price cutoff 6,723,256.30
+Nov 17, 2026 9:35:04 PM Dealership getVehicles
+INFO: Executing getVehicles(): returning inventory containing 10 vehicles
+Nov 17, 2026 9:35:04 PM Vehicle getAge
+INFO: Executing getAge() -> 11 for Opel Astra
+Nov 17, 2026 9:35:04 PM Vehicle getAge
+INFO: Executing getAge() -> 8 for Ford Focus
+Nov 17, 2026 9:35:04 PM Vehicle getAge
+INFO: Executing getAge() -> 6 for Volkswagen Golf
+Nov 17, 2026 9:35:04 PM Vehicle getAge
+INFO: Executing getAge() -> 6 for Renault Zoe
+Nov 17, 2026 9:35:04 PM Vehicle getAge
+INFO: Executing getAge() -> 5 for Nissan Leaf
+Nov 17, 2026 9:35:04 PM Vehicle getAge
+INFO: Executing getAge() -> 4 for Toyota Corolla
+Nov 17, 2026 9:35:04 PM Vehicle getAge
+INFO: Executing getAge() -> 4 for VW ID.3
+Nov 17, 2026 9:35:04 PM Vehicle getAge
+INFO: Executing getAge() -> 3 for BMW 320d
+Nov 17, 2026 9:35:04 PM Vehicle getAge
+INFO: Executing getAge() -> 2 for Tesla Model 3
+Nov 17, 2026 9:35:04 PM Vehicle getAge
+INFO: Executing getAge() -> 1 for Kia EV6
+Nov 17, 2026 9:35:04 PM Dealership main
+INFO: Counted Young Inventory (< 5 yrs): 5
+Nov 17, 2026 9:35:04 PM Dealership getVehicles
+INFO: Executing getVehicles(): returning inventory containing 10 vehicles
+Nov 17, 2026 9:35:04 PM Dealership getVehicles
+INFO: Executing getVehicles(): returning inventory containing 10 vehicles
+Nov 17, 2026 9:35:04 PM Dealership getVehicles
+INFO: Executing getVehicles(): returning inventory containing 10 vehicles
+Nov 17, 2026 9:35:04 PM Vehicle getBrand
+INFO: Executing getBrand() -> Opel
+Nov 17, 2026 9:35:04 PM Vehicle getModel
+INFO: Executing getModel() -> Astra
+Nov 17, 2026 9:35:04 PM Vehicle getBrand
+INFO: Executing getBrand() -> Ford
+Nov 17, 2026 9:35:04 PM Vehicle getModel
+INFO: Executing getModel() -> Focus
+Nov 17, 2026 9:35:04 PM Vehicle getBrand
+INFO: Executing getBrand() -> Volkswagen
+Nov 17, 2026 9:35:04 PM Vehicle getModel
+INFO: Executing getModel() -> Golf
+Nov 17, 2026 9:35:04 PM Vehicle getBrand
+INFO: Executing getBrand() -> Renault
+Nov 17, 2026 9:35:04 PM Vehicle getModel
+INFO: Executing getModel() -> Zoe
+Nov 17, 2026 9:35:04 PM Vehicle getBrand
+INFO: Executing getBrand() -> Nissan
+Nov 17, 2026 9:35:04 PM Vehicle getModel
+INFO: Executing getModel() -> Leaf
+Nov 17, 2026 9:35:04 PM Vehicle getBrand
+INFO: Executing getBrand() -> Toyota
+Nov 17, 2026 9:35:04 PM Vehicle getModel
+INFO: Executing getModel() -> Corolla
+Nov 17, 2026 9:35:04 PM Vehicle getModel
+INFO: Executing getModel() -> Corolla
+Nov 17, 2026 9:35:04 PM Vehicle getBrand
+INFO: Executing getBrand() -> Toyota
+Nov 17, 2026 9:35:04 PM Vehicle getModel
+INFO: Executing getModel() -> Corolla
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Toyota Corolla -> 5,635,000
+Nov 17, 2026 9:35:04 PM Vehicle getBasePrice
+INFO: Executing getBasePrice() -> 5500000.0 for Toyota Corolla
+Nov 17, 2026 9:35:04 PM Vehicle applyDiscount
+INFO: Executing applyDiscount(10%) on Toyota Corolla: base price updated from 5500000 to 4950000
+Nov 17, 2026 9:35:04 PM Vehicle getFinalPrice
+INFO: Executing getFinalPrice() for Toyota Corolla -> 5,002,500
+Nov 17, 2026 9:35:04 PM Vehicle getBasePrice
+INFO: Executing getBasePrice() -> 4950000.0 for Toyota Corolla
+Nov 17, 2026 9:35:04 PM Dealership main
+INFO: Discount Simulation performed on Toyota Corolla: base price 5500000 -> 4950000, final price 5,635,000 -> 5,002,500
+Nov 17, 2026 9:35:04 PM Dealership main
+INFO: Successfully wrote final report to outputDealership.txt

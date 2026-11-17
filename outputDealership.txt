@@ -1,0 +1,27 @@
+================================================================================
+                  CAR DEALERSHIP MANAGEMENT SYSTEM - REPORT                     
+================================================================================
+
+1. Fleet Average Mileage: 84,400.00 km
+
+2. Cheapest Vehicle:
+   Vehicle: Opel Astra | Base Price: 2,200,000 | Age: 11 yrs | Mileage: 190,000 km | Fuel: PETROL | Final Price: 550,000 | Avg Annual Mileage: 17,272.73 km/yr
+
+3. Top Electric Vehicle:
+   Vehicle: Kia EV6 | Final Price: 17,333,663 | Battery Capacity: 77 kWh | Average Annual Mileage: 15,000.00 km/yr
+
+4. Total Fleet Inventory Value: 67,232,563
+
+5. Filtered Hybrid Inventory (FuelType == HYBRID and Final Price <= Average Price of 6,723,256.30):
+   - Vehicle: Renault Zoe | Base Price: 3,900,000 | Age: 6 yrs | Mileage: 82,000 km | Fuel: HYBRID | Final Price: 3,622,500 | Avg Annual Mileage: 13,666.67 km/yr | Battery: 52 kWh | Heat Pump: Yes
+   - Vehicle: Nissan Leaf | Base Price: 4,800,000 | Age: 5 yrs | Mileage: 65,000 km | Fuel: HYBRID | Final Price: 4,657,500 | Avg Annual Mileage: 13,000.00 km/yr | Battery: 40 kWh | Heat Pump: No
+   - Vehicle: Toyota Corolla | Base Price: 5,500,000 | Age: 4 yrs | Mileage: 75,000 km | Fuel: HYBRID | Final Price: 5,635,000 | Avg Annual Mileage: 18,750.00 km/yr
+
+6. Young Inventory Count (age < 5): 5
+
+7. Discount Simulation:
+   Selected Vehicle: Toyota Corolla
+   Original Base Price: 5,500,000 | Original Final Price: 5,635,000
+   After 10% Discount -> Updated Base Price: 4,950,000 | Updated Final Price: 5,002,500
+
+================================================================================
